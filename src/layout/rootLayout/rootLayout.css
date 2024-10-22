@@ -1,0 +1,39 @@
+.rootLayout {
+    padding: 16px 64px;
+    height: 100vh; 
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 8px;
+  }
+  
+  .logo img {
+    height: 200px;
+    width: 200px;  
+  }
+  
+  main {
+    flex: 1;
+    overflow: hidden;
+  }
+  .user {
+    padding-right: 20px;
+  }
+  .name {
+    font-size: 24px;          
+    font-weight: bold;        
+    color:white;              
+    text-decoration: none;   
+    margin-left: 8px;        
+    line-height: 32px;        
+  }
+  
